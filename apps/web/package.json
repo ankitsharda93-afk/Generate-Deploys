@@ -1,0 +1,30 @@
+{
+  "name": "@sheet-to-pages/web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "dev:stable": "next build && next start -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sheet-to-pages/shared": "file:../../packages/shared",
+    "@supabase/supabase-js": "^2.49.1",
+    "autoprefixer": "^10.4.20",
+    "next": "15.2.2",
+    "postcss": "^8.4.49",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^3.4.17",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "eslint": "^9.22.0",
+    "eslint-config-next": "15.2.2",
+    "typescript": "^5.8.2"
+  }
+}
